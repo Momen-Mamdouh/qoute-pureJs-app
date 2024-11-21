@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qoutes App</title>
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&family=Alegreya:ital,wght@0,400..900;1,400..900&family=Imperial+Script&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="./CSS/all.min.css">
+    <link rel="stylesheet" href="./CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="./CSS/qouteStyleSheet.css">
+</head>
+<body class="bg-info-subtle bg-light-subtle">
+    
+
+    <section class="qoute-section">
+            <div class="text-center ">
+
+                <h1 class="mt-5 mb-3">Quote of the Day</h1>
+                <p>Press the button below to recieve a random quote!</p>
+
+                <button onclick="newQoute()" class="btn btn-info qoute-btn rounded-1 fs-4">New Qoute</button>
+
+                <p id="qoute-output"></p>
+                <p id="author-output"></p>
+            </div>
+    </section>
+
+
+    <script src="./JS/all.min.js"></script>
+    <script src="./JS/bootstrap.bundle.min.js"></script>
+    <script src="./JS/main.js"></script>
+</body>
+</html>
