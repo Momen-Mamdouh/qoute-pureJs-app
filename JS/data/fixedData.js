@@ -12,4 +12,4 @@ export const QOUTES  = [    {q:'Without music, life would be a mistake.', a:'―
 
 ];
 
-export const BASEURL = "https://proxy.corsfix.com/?https://zenquotes.io/api/quotes";
+// export const BASEURL = "https://proxy.corsfix.com/?https://zenquotes.io/api/quotes";

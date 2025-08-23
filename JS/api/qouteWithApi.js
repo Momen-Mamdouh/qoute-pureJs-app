@@ -1,6 +1,6 @@
 import {getRandomNumber} from '../utils/utils.js'
 import {hideLoader, newQoute, showLoader} from '../utils/domUtils.js'
-import {BASEURL} from "../data/fixedData.js"
+
 
 
 const loader = document.getElementById("loader");
@@ -8,7 +8,7 @@ const quoteContainer = document.getElementById("qoute");
 let randomNumber;
 
 const fetchRandomQoute = async ()=>{
-    const result = await fetch(BASEURL);
+    const result = await fetch('/api/quotes.js');
     return await result.json()
 };
 
