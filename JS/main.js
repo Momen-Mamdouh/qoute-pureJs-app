@@ -13,11 +13,12 @@ const qouteBtn =  document.getElementById("qouteBtn");
 function handleQouteClick() {
   if (currentPage === 'noApi.html') {
       randomNumber = getRandomNumber(QOUTES, 0);
-      blurTransationEffect()
+      blurTransationEffect();
       newQoute(QOUTES, randomNumber);
   }
   else if (currentPage === 'withApi.html') {
         randomNumber = getRandomNumber(QOUTES, 0);
+        blurTransationEffect();
         randomFetchedQoute();
   }
 }
